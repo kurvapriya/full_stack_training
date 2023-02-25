@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            nav{
+                background-color: blue;
+                color:rgb(255, 47, 252);
+                font-size: 15px;
+                text-align: center;
+                list-style: none;
+                
+            }
+            ul{
+                background-color: rgb(208, 13, 189);
+                 padding: 5px;
+                 margin: 5px ;
+                 text-align: center;
+                list-style: none;
+            }
+            ul>li{
+                display:inline-block;
+                width: 200px;
+                padding:5px;
+                border-bottom: 2px solid rgb(198, 38, 38);
+                background-color: rgb(175, 192, 63);
+            }
+            ul>li a{
+                color:#fff;
+                font-size: 20px;
+                
+            }
+            option{
+                color:aqua;
+            }
+            select{
+                color:#fff;
+                background-color: rgb(175, 192, 63);
+                font-size: 20px;
+            }
+            select:hover{
+                color:blue;
+            }
+            ul>li>a:hover{
+                color:blue;
+            }
+        </style>
+        <title>
+            nav bar demo
+        </title>
+        <body>
+            <nav>
+            <ul>
+                <li><a>home</a></li> 
+                <li><a><select>
+                    <option>course</option>
+                    <option>MEAN</option>
+                    <option>MERN</option>
+                    <option>PYTHON</option>
+                    <option>JAVA</option>
+                </select></a>
+                     </li> 
+                
+                <li><a>contact us</a></li> 
+                <li><a>log out</a></li> 
+
+            </ul>
+        </nav>
+        </body>
+    </head>
+</html>
